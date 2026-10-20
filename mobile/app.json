@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Local Bulgarian Tour",
+    "slug": "local-bulgarian-tour",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "localbg",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0B3D2E",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.localbulgariantour.app"
+    },
+    "android": {
+      "package": "com.localbulgariantour.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

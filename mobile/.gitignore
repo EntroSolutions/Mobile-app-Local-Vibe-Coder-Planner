@@ -1,0 +1,30 @@
+# Expo
+.expo/
+dist/
+expo-env.d.ts
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+ios/
+android/
+
+# Dependencies
+node_modules/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Testing / coverage
+coverage/
+
+# Misc
+.DS_Store
+*.tsbuildinfo
